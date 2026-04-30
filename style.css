@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px rebeccapurple;
+    color: var(--text);
+}
+
+:root {
+    --principale: #9974D4;
+    --text: #240240;
+    --background: #FFFFFF;
+    --secondaire: #aa91d3;
+
+}
+
+header {
+    background-image: url(./assets/photographe/Fond.avif);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.logo {
+    height: 10vh;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 103px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.phero {
+    padding: 30px;
+}
+
+.divhero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boutonprincipal {
+    padding: 15px;
+    border-radius: 28px;
+    background-color: var(--principale);
+}
+
+.boutonsecondaire {
+    padding: 10px;
+    border-radius: 28px;
+    background-color:var(--secondaire)
+}
