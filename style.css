@@ -14,7 +14,7 @@
 }
 
 header {
-    background-image: url(./assets/photographe/Fond.avif);
+    background-image: url(./assets/photographe/Background.jpeg);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -80,5 +80,15 @@ h1 {
 .boutonsecondaire {
     padding: 10px;
     border-radius: 28px;
-    background-color:var(--secondaire)
+    background-color:var(--secondaire);
+}
+.verticalpage{
+    display: flex;
+    height: 70vh;
+    width: fit-content;
+}
+.sectiondeux{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
 }
